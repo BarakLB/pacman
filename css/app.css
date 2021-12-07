@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color:white;
+  text-align: center;
 }
 
 .cell {
@@ -10,13 +11,25 @@ body {
   font-size: 1.5em;
 }
 
-/* .formLine {
-  margin:10px;
-  padding:10px;
-  background-color: cornflowerblue;
-} */
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3DB2FF;
+
+}
+
+header {
+  background-color: paleturquoise;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  color: royalblue;
+}
 .modal {
+  position: absolute;
   height: 120px;
   width: 200px;
   /* background-color: lightskyblue; */
@@ -25,6 +38,10 @@ body {
   font-size: 14px;
 }
 
+/* .board-container {
+  margin-left: auto;
+  margin-right: auto;
+} */
 button {
   border: none;
   color: #fafafa;
